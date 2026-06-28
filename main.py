@@ -1,7 +1,5 @@
-import copy;
-a=[[2,3],[4,5]];
-b1=a.copy();
-b2=copy.deepcopy(a);
+class factory:
+    a= "hello i am an attribute"
 
-b2[0][0]=999;
-print(a);
+obj = factory()
+print(obj.a)
